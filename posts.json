@@ -1,0 +1,53 @@
+[
+    {
+        "title": "My post 1",
+        "content": "My post text",
+        "user_id": 1
+    },
+    {
+        "title": "My post 2",
+        "content": "My post text",
+        "user_id": 1
+    },
+    {
+        "title": "My post 3",
+        "content": "My post text",
+        "user_id": 1
+    },
+    {
+        "title": "My post 4",
+        "content": "My post text",
+        "user_id": 1
+    },
+    {
+        "title": "My post 5",
+        "content": "My post text",
+        "user_id": 1
+    },
+    {
+        "title": "My post 6",
+        "content": "My post text",
+        "user_id": 1
+    },
+    {
+        "title": "My post 7",
+        "content": "My post text",
+        "user_id": 1
+    },
+    {
+        "title": "My post 8",
+        "content": "My post text",
+        "user_id": 1
+    },
+    {
+        "title": "My post 9",
+        "content": "My post text",
+        "user_id": 1
+    },
+    {
+        "title": "My post 10",
+        "content": "My post text",
+        "user_id": 1
+    }
+
+]

@@ -1,0 +1,20 @@
+<ul class="post-list">
+    {%for post in post_list%}
+    <!--Thursday, October 19th, 2023-->
+    <li class="post-item">
+        <a class="post-item__link" href="{% url 'blog:author-posts' post.author.id %}">Author: {{post.author}} (id {{post.author.id}})</a>
+        <a class="post-item__link" href="{% url 'blog:detail' post.id %}">
+           {{post.title}}, created at {{post.created_at | date:date_shape}}
+        </a>
+        <div class="post-item__controls">
+
+         {%if user.id == post.author.id%}   
+           <a class="post-item__control" href="{% url 'blog:update' post.id %}">EDIT</a> 
+           <a class="post-item__control" href="{% url 'blog:delete' post.id %}">DELETE</a> 
+         {%endif%}
+        </div>
+ 
+     </li>
+
+    {%endfor%}
+</ul>

@@ -1,0 +1,19 @@
+
+{%extends 'base.html' %}
+
+
+{% block content%}
+
+<h1>Welcome {{user}} </h1>
+<a class="post-item__link" href="{% url 'blog:create' %}">CREATE NEW POST</a>
+
+{% include 'blog/pagination.html'%}
+{% include 'blog/custom_post_list.html' %}
+
+
+{%endblock content%}
+
+
+
+
+
