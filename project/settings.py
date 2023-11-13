@@ -32,7 +32,7 @@ SECRET_KEY = getenv('DJANGO_SECRET_KEY', get_random_secret_key())
 # so it evaluates to True. In production we don't set it so its 'False' and evaluates to False
 DEBUG = getenv('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['goranhir.eu.pythonanywhere.com']
 
 
 # Application definition
